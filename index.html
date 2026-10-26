@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agrifurn modern furniture for comfortable living, delivered to your door.">
+    <title>Agrifurn Modern furniture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="Agrifurn home">Agrifurn</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#furniture"><b>Furniture</b></a>
+        <a href="#shop"><b>Shop</b></a>
+        <a href="#about"><b>About Us</b></a>
+        <a href="#contact"><b>Contact</b></a>
+      </nav>
+      <div class="header-actions">
+        <button class="bag-button" type="button" aria-label="Shopping bag">🛒<b id="cart-count">0</b></button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="furniture">
+        <div class="hero-content">
+          <h1>Make Your Interior More <span>Minimalistic & Modern</span></h1>
+          <p class="hero-copy">Turn your room with Agrifurn into a lot more minimalist<br>and modern with ease and speed.</p>
+          <form class="search" id="search-form">
+            <label class="sr-only" for="search-input">Search furniture</label>
+            <input id="search-input" type="search" placeholder="Search furniture">
+            <button type="submit" aria-label="Search">🔍</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="why" id="about">
+        <h2>Why<br>Choosing Us</h2>
+        <div class="why-grid">
+          <article>
+            <h3>Luxury facilities</h3>
+            <p>The advantage of hiring a workspace with us is that it gives you comfortable service.</p>
+            <a href="#contact">More info <span>→</span></a>
+          </article>
+          <article>
+            <h3>Affordable Price</h3>
+            <p>You can get a workspace of the highest quality at an affordable price.</p>
+            <a href="#contact">More info <span>→</span></a>
+          </article>
+          <article>
+            <h3>Many Choices</h3>
+            <p>We provide many unique furniture choices for you to choose from.</p>
+            <a href="#shop">More info <span>→</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="products" id="shop">
+        <h2>Best Selling Product</h2>
+        <div class="filters" id="filters" role="tablist" aria-label="Furniture categories">
+          <button class="filter active" type="button" data-category="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" type="button" data-category="chairs" role="tab" aria-selected="false">Chair</button>
+          <button class="filter" type="button" data-category="sofas" role="tab" aria-selected="false">Sofa</button>
+          <button class="filter" type="button" data-category="lamps" role="tab" aria-selected="false">Lamp</button>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+        <a class="view-all" href="#shop">View All <span>→</span></a>
+      </section>
+
+      <section class="brand-story" id="experience" aria-label="About Agrifurn">
+        <div class="story-row experience-row">
+          <div class="story-image experience-image">
+            <img src="image/Rectangle 1446.png" alt="Modern sofa in a warm living room">
+          </div>
+          <div class="story-copy">
+            <p class="eyebrow">Experiences</p>
+            <h2>We Provide You The<br>Best Experience</h2>
+            <p>You don't have to worry about the result because our interiors are made by professionals with an elegant, luxurious style and premium materials.</p>
+            <a href="#contact">More info <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="story-row materials-row">
+          <div class="story-copy">
+            <p class="eyebrow">Materials</p>
+            <h2>Very Serious<br>Materials For Making<br>Furniture</h2>
+            <p>We take furniture design seriously, using carefully selected materials to create lasting pieces at an affordable price.</p>
+            <a href="#shop">More info <span>→</span></a>
+          </div>
+          <div class="material-collage" aria-label="Furniture materials and styles">
+            <img class="material-small material-top" src="image/Rectangle 1450.png" alt="Blue armchair">
+            <img class="material-small material-middle" src="image/3c8ea705dfc44b8035ebd10cd5adaafc9278179e.jpg" alt="Living room chair">
+            <img class="material-large" src="image/Rectangle 1446 (1).png" alt="Dining room furniture">
+          </div>
+        </div>
+
+        <div class="testimonials">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Our Client Reviews</h2>
+          <div class="review-grid">
+            <article class="review-card review-one">
+              <div class="review-content">
+                <div class="avatar">B</div>
+                <h3>Monnan Mia</h3>
+                <p>“The furniture looks luxurious, is very comfortable, and has such a great modern design.”</p>
+                <span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span>
+              </div>
+            </article>
+            <article class="review-card review-two">
+              <div class="review-content">
+                <div class="avatar">I</div>
+                <h3>Jobbar Ali</h3>
+                <p>“The quality is very good and the service made choosing pieces for our home easy.”</p>
+                <span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span>
+              </div>
+            </article>
+            <article class="review-card review-three">
+              <div class="review-content">
+                <div class="avatar">M</div>
+                <h3>Hosoinna</h3>
+                <p>“Elegant furniture, premium materials, and a beautiful atmosphere for every room.”</p>
+                <span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="footer-main">
+        <div class="footer-brand">
+        
+          <p>The advantage of hiring with us is that it gives you comfortable service for all your furniture needs.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Services</h3>
+          <ul><li>Furniture delivery</li><li>Interior advice</li><li>Customer support</li></ul>
+        </div>
+        <div class="footer-column">
+          <h3>Furniture</h3>
+          <ul><li>Beds</li><li>Sofas</li><li>Lamps</li></ul>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <ul><li>Facebook</li><li>Instagram</li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright 2024 Agrifurn</p>
+        
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
