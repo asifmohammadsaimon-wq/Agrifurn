@@ -48,6 +48,13 @@ const products = [
     price: "12900tk",
     image: "image/unsplash_h2_3dL9yLpU.png",
   },
+  {
+    name: "Modern lamp",
+    category: "lamps",
+    type: "Lamp",
+    price: "1100tk",
+    image: "image/download.jpg",
+  }
 ];
 
 const productGrid = document.querySelector("#product-grid");
@@ -97,7 +104,7 @@ function renderProducts() {
       `;
     }
   } else {
-    productGrid.innerHTML = "<h2> No products found.</h2>",clearInterval;
+    productGrid.innerHTML = "<h2>No products found.</h2>" ;
   }
 }
 
@@ -134,7 +141,6 @@ productGrid.addEventListener("click", (event) => {
 
   cartCount.textContent = cart;
 });
-
 
 searchInput.addEventListener("input", renderProducts);
 searchForm.addEventListener("submit", (event) => {
