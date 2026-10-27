@@ -82,12 +82,12 @@ function renderProducts() {
 
       productGrid.innerHTML += `
         <article class="product-card">
-          <div class="product-image">
-            <img src="${product.image}" alt="${product.name}">
+          <div class="product-image"><img src="${product.image}" alt="${product.name}"> 
           </div>
           <div class="product-info">
             <p class="product-category">${product.type}</p>
             <h3 class="product-name">${product.name}</h3>
+            <h1>*****</h1>
             <div class="product-bottom">
               <p class="price">${product.price}</p>
               <button class="add" type="button">+</button>
@@ -97,7 +97,7 @@ function renderProducts() {
       `;
     }
   } else {
-    productGrid.innerHTML = "<p>No products found.</p>";
+    productGrid.innerHTML = "<h2> No products found.</h2>",clearInterval;
   }
 }
 
